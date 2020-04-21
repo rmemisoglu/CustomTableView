@@ -13,6 +13,12 @@
 		4850866B244F51B3004ED6E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48508669244F51B3004ED6E7 /* Main.storyboard */; };
 		4850866D244F51B4004ED6E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4850866C244F51B4004ED6E7 /* Assets.xcassets */; };
 		48508670244F51B4004ED6E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4850866E244F51B4004ED6E7 /* LaunchScreen.storyboard */; };
+		48896F4A244F586800C8E312 /* PostHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48896F44244F586800C8E312 /* PostHeaderView.xib */; };
+		48896F4B244F586800C8E312 /* PostCommentView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48896F45244F586800C8E312 /* PostCommentView.xib */; };
+		48896F4C244F586800C8E312 /* StickyHeader.xcworkspace in Resources */ = {isa = PBXBuildFile; fileRef = 48896F46244F586800C8E312 /* StickyHeader.xcworkspace */; };
+		48896F4D244F586800C8E312 /* CustomTableView.xcworkspace in Resources */ = {isa = PBXBuildFile; fileRef = 48896F47244F586800C8E312 /* CustomTableView.xcworkspace */; };
+		48896F4E244F586800C8E312 /* PostHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48896F48244F586800C8E312 /* PostHeaderView.swift */; };
+		48896F4F244F586800C8E312 /* PostReplyView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48896F49244F586800C8E312 /* PostReplyView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,12 @@
 		4850866C244F51B4004ED6E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4850866F244F51B4004ED6E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		48508671244F51B4004ED6E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48896F44244F586800C8E312 /* PostHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PostHeaderView.xib; sourceTree = "<group>"; };
+		48896F45244F586800C8E312 /* PostCommentView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PostCommentView.xib; sourceTree = "<group>"; };
+		48896F46244F586800C8E312 /* StickyHeader.xcworkspace */ = {isa = PBXFileReference; lastKnownFileType = wrapper.workspace; path = StickyHeader.xcworkspace; sourceTree = "<group>"; };
+		48896F47244F586800C8E312 /* CustomTableView.xcworkspace */ = {isa = PBXFileReference; lastKnownFileType = wrapper.workspace; path = CustomTableView.xcworkspace; sourceTree = "<group>"; };
+		48896F48244F586800C8E312 /* PostHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostHeaderView.swift; sourceTree = "<group>"; };
+		48896F49244F586800C8E312 /* PostReplyView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PostReplyView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 		48508662244F51B3004ED6E7 /* PostCommentReply */ = {
 			isa = PBXGroup;
 			children = (
+				48896F43244F586800C8E312 /* View */,
 				48508663244F51B3004ED6E7 /* AppDelegate.swift */,
 				48508665244F51B3004ED6E7 /* SceneDelegate.swift */,
 				48508667244F51B3004ED6E7 /* ViewController.swift */,
@@ -65,6 +78,19 @@
 				48508671244F51B4004ED6E7 /* Info.plist */,
 			);
 			path = PostCommentReply;
+			sourceTree = "<group>";
+		};
+		48896F43244F586800C8E312 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				48896F44244F586800C8E312 /* PostHeaderView.xib */,
+				48896F45244F586800C8E312 /* PostCommentView.xib */,
+				48896F46244F586800C8E312 /* StickyHeader.xcworkspace */,
+				48896F47244F586800C8E312 /* CustomTableView.xcworkspace */,
+				48896F48244F586800C8E312 /* PostHeaderView.swift */,
+				48896F49244F586800C8E312 /* PostReplyView.xib */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +151,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48896F4B244F586800C8E312 /* PostCommentView.xib in Resources */,
 				48508670244F51B4004ED6E7 /* LaunchScreen.storyboard in Resources */,
+				48896F4A244F586800C8E312 /* PostHeaderView.xib in Resources */,
 				4850866D244F51B4004ED6E7 /* Assets.xcassets in Resources */,
+				48896F4C244F586800C8E312 /* StickyHeader.xcworkspace in Resources */,
+				48896F4D244F586800C8E312 /* CustomTableView.xcworkspace in Resources */,
 				4850866B244F51B3004ED6E7 /* Main.storyboard in Resources */,
+				48896F4F244F586800C8E312 /* PostReplyView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,6 +170,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				48508668244F51B3004ED6E7 /* ViewController.swift in Sources */,
+				48896F4E244F586800C8E312 /* PostHeaderView.swift in Sources */,
 				48508664244F51B3004ED6E7 /* AppDelegate.swift in Sources */,
 				48508666244F51B3004ED6E7 /* SceneDelegate.swift in Sources */,
 			);
